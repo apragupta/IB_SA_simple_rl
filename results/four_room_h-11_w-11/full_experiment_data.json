@@ -1,0 +1,178 @@
+{
+    "MISC": {
+        "instances": 5, 
+        "episodes": 100, 
+        "steps": 10, 
+        "track_disc_reward": false
+    }, 
+    "MDP": {
+        "params": {
+            "step_cost": 0.0, 
+            "lava_cost": 0.01, 
+            "slip_prob": 0.05, 
+            "is_goal_terminal": true, 
+            "rand_init": false, 
+            "init_loc": {
+                "items": [
+                    1, 
+                    1
+                ], 
+                "__tuple__": true
+            }, 
+            "walls": [
+                {
+                    "items": [
+                        1, 
+                        6.0
+                    ], 
+                    "__tuple__": true
+                }, 
+                {
+                    "items": [
+                        3, 
+                        6.0
+                    ], 
+                    "__tuple__": true
+                }, 
+                {
+                    "items": [
+                        4, 
+                        6.0
+                    ], 
+                    "__tuple__": true
+                }, 
+                {
+                    "items": [
+                        5, 
+                        6.0
+                    ], 
+                    "__tuple__": true
+                }, 
+                {
+                    "items": [
+                        6, 
+                        5.0
+                    ], 
+                    "__tuple__": true
+                }, 
+                {
+                    "items": [
+                        7, 
+                        5.0
+                    ], 
+                    "__tuple__": true
+                }, 
+                {
+                    "items": [
+                        8, 
+                        5.0
+                    ], 
+                    "__tuple__": true
+                }, 
+                {
+                    "items": [
+                        10, 
+                        5.0
+                    ], 
+                    "__tuple__": true
+                }, 
+                {
+                    "items": [
+                        11, 
+                        5.0
+                    ], 
+                    "__tuple__": true
+                }, 
+                {
+                    "items": [
+                        6.0, 
+                        1
+                    ], 
+                    "__tuple__": true
+                }, 
+                {
+                    "items": [
+                        6.0, 
+                        3
+                    ], 
+                    "__tuple__": true
+                }, 
+                {
+                    "items": [
+                        6.0, 
+                        4
+                    ], 
+                    "__tuple__": true
+                }, 
+                {
+                    "items": [
+                        6.0, 
+                        5
+                    ], 
+                    "__tuple__": true
+                }, 
+                {
+                    "items": [
+                        6.0, 
+                        6
+                    ], 
+                    "__tuple__": true
+                }, 
+                {
+                    "items": [
+                        6.0, 
+                        7
+                    ], 
+                    "__tuple__": true
+                }, 
+                {
+                    "items": [
+                        6.0, 
+                        8
+                    ], 
+                    "__tuple__": true
+                }, 
+                {
+                    "items": [
+                        6.0, 
+                        10
+                    ], 
+                    "__tuple__": true
+                }, 
+                {
+                    "items": [
+                        6.0, 
+                        11
+                    ], 
+                    "__tuple__": true
+                }
+            ], 
+            "lava_locs": [
+                {
+                    "items": [], 
+                    "__tuple__": true
+                }
+            ], 
+            "goal_locs": [
+                {
+                    "items": [
+                        11, 
+                        11
+                    ], 
+                    "__tuple__": true
+                }
+            ], 
+            "height": 11, 
+            "width": 11, 
+            "gamma": 0.99
+        }, 
+        "name": "<class 'simple_rl.tasks.four_room.FourRoomMDPClass.FourRoomMDP'>"
+    }, 
+    "AGENTS": {
+        "<class 'simple_rl.abstraction.AbstractionWrapperClass.AbstractionWrapper'>": {
+            "index": 0, 
+            "params": {}
+        }
+    }, 
+    "FUNC": "run_agents_on_mdp"
+}
